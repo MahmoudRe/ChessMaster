@@ -8,3 +8,4 @@ Two player standard chess game. Done as part of a uni assignment. It is done in 
 ## Screenshots!
 <img src="screenshots/splash_screen.png" alt="splash" title="splash screen" width="1080"/>
 <img src="screenshots/game_screen.png" alt="game" title="game screen" width="1080" />
+<img src="screenshots/game_screen_2.png" alt="game2" title="game screen" width="1080" />
