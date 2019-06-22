@@ -6,5 +6,5 @@ Two player standard chess game. Done as part of a uni assignment. It is done in 
 2. Enjoy the game on `http://http:localhost:[PORT_NUMBER]`
 
 ## Screenshots!
-<img src="screenshots/splash_screen.jpg" alt="game" title="game screen" width="400" height="1000" />
-<img src="screenshots/game_screen.jpg" alt="game" title="game screen" width="400" height="1000" />
+<img src="screenshots/splash_screen.png" alt="splash" title="splash screen" width="400" height="1000" />
+<img src="screenshots/game_screen.png" alt="game" title="game screen" width="400" height="1000" />
