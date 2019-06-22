@@ -4,3 +4,7 @@ Two player standard chess game. Done as part of a uni assignment. It is done in 
 ## How to start the game?
 1. From the terminal, `cd` to the game folder (the folder of the repo) and run `npm start [PORT_NUMBER]`
 2. Enjoy the game on `http://http:localhost:[PORT_NUMBER]`
+
+## Screenshots!
+<img src="screenshots/splash_screen.jpg" alt="game" title="game screen" width="400" height="1000" />
+<img src="screenshots/game_screen.jpg" alt="game" title="game screen" width="400" height="1000" />
