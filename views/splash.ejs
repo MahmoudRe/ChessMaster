@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Splash screen</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/style.css" />
+</head>
+
+<body>
+
+    <header id="header"> Chess
+        <img src="images/strategy.svg" id="logo"> Master
+    </header>
+
+    <div id="splash_body">
+
+        <div>
+            <label> Player name </label>
+            <br>
+            <input id="in_name" type="text" name="Your Name" placeholder="enter your name" class="field">
+        </div>
+
+        <div>
+            <label> Your skill </label>
+            <br>
+            <select class="field" id="in_skill">
+                <option value="Beginner"> Beginner </option>
+                <option value="Intermediate"> Intermediate </option>
+                <option value="Expert"> Expert </option>
+            </select>
+        </div>
+
+        <div>
+            <button class="btn" id="gm_start"> Start New Game! </button>
+        </div>
+
+        <p id="gameState"> </p>
+
+        <div class="statics">
+            <label id="head_statics"> Statics </label>
+            <br>
+            <label> <%= playerOnline %> player online </label>
+            <br>
+            <label> <%= checkMate %> check mate until now </label>
+            <br>
+            <label> <%= gamesInitialized %>  games are created </label>
+            <br>
+        </div>
+
+    </div>
+
+    <script src="javascripts/socket_splash.js"></script>
+</body>
+
+</html>

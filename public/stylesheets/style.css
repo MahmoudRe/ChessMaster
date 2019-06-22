@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Holtwood+One+SC|Suez+One');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #068587;
+    text-align: center;
+    font-family: 'Holtwood One SC', serif;
+    font-size: 50px;
+    color: #e7e7e7;
+    padding: 15px;
+}
+
+body {
+    background: #112F41;
+    font-family: 'Suez One', serif;
+    text-align: center;
+    font-size: 30px;
+    color: #e7e7e7;
+}
+
+#logo {
+    width: 50px;
+    vertical-align: sub;
+}
+
+div {
+    margin: 5px;
+}
+
+.statics {
+    font-size: 20px;
+    text-align: justify;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F2B134;
+    border-radius: 8px;
+}
+
+#head_statics {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Holtwood One SC', serif;
+    color: #112F41;
+}
+
+.field {
+    display: inline-block;
+    border: none;
+    padding: 10px 20px;
+    background-color: #e7e7e7;
+    font-size: 15px;
+    font-family: 'Suez One', serif;
+    color: #112F41;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    border: none;
+    padding: 10px 20px;
+    background-color: #ED553B;
+    font-size: 35px;
+    font-family: 'Suez One', serif;
+    color: #e7e7e7;
+    margin: 15px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.btn:hover {
+    font-size: 130%;
+    transition: all 0.1s ease-in-out;
+    background-color: rgb(167, 60, 41);
+}
+
+.btn:active {
+    font-size: 130%;
+    transition: all 0.1s ease-in-out;
+    background-color: #F2B134;
+}
+
+.row_num {
+    font-size: 23px;
+    color: #32bac4;
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin: 3px;
+    border-radius: 4px;
+    padding: 17px 0 0 50px;
+    z-index: 2;
+}
+
+.column_num {
+    font-size: 23px;
+    color: #32bac4;
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin: 3px;
+    border-radius: 4px;
+    padding: 0 0 0 0px;
+    z-index: 2;
+}
+
+@keyframes p1_an {
+    0% {
+        left: 0px;
+    }
+    100% {
+        left: 10px;
+    }
+}
